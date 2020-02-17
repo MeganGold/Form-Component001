@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Component</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<form action="">
+    <h1>Payment Details</h1>
+    <label for="name">Name on card
+        <i class="far fa-user"></i>
+        <input type="text" id="name" required>
+    </label>
 
+    <label for="cardNum">Card number
+        <i class="far fa-credit-card"></i>
+        <input type="number" id="cardNum" required>
+    </label>
+
+    <label for="expDate">Expiration Date
+        <i class="far fa-calendar-alt"></i>
+        <input type="date" id="expDate" required>
+    </label>
+
+    <label for="CVC">CVC
+        <input type="number" id="CVC" required>
+    </label>
+
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
