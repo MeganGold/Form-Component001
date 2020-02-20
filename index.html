@@ -8,26 +8,11 @@
 </head>
 <body>
 <form action="">
-    <h1>Payment Details</h1>
-    <label for="name">Name on card
-        <i class="far fa-user"></i>
-        <input type="text" id="name" required>
-    </label>
-
-    <label for="cardNum">Card number
-        <i class="far fa-credit-card"></i>
-        <input type="number" id="cardNum" required>
-    </label>
-
-    <label for="expDate">Expiration Date
-        <i class="far fa-calendar-alt"></i>
-        <input type="date" id="expDate" required>
-    </label>
-
-    <label for="CVC">CVC
-        <input type="number" id="CVC" required>
-    </label>
-
+    <h1>Leave a message</h1>
+    <label for="name"></label><input type="text" id="name" placeholder="Name" required>
+    <label for="email"></label><input type="email" id="email" placeholder="Email" required>
+    <label for="subject"></label><input type="text" id="subject" placeholder="Subject" required>
+    <label for="textarea"></label><textarea rows="4" cols="30" placeholder="Message" id="textarea"></textarea>
     <input type="submit" value="Submit">
 </form>
 </body>
