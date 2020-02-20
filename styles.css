@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+form {
+    padding: 50px;
+    width: 30%;
+    margin-top: 150px;
+    background-color: #fff;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+
+#name, #email, #subject, #textarea{
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 10px;
+    margin: 20px 0px;
+    width: 100%;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #83a4d4;
+    cursor: pointer;
+    color: #fff;
+}
+
